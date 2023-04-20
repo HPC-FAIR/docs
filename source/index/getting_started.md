@@ -1,18 +1,9 @@
 # Getting Started
 
-
-## Installation 
-Please check the [installation](installation.md) section to install editable HPC-FAIR transformers
+## Requirements 
+Please check the [installation](installation.md) section to install editable HPC-FAIR transformers. This repository is tested on Python 3.6+, Flax 0.3.2+, PyTorch 1.3.1+ and TensorFlow 2.3+.
 
 ## Pipelines
-
-```{toctree}
-:maxdepth: 0
-:hidden:
-../pipelines/similarity_checking.md
-../pipelines/parallelism.md
-```
-
 
 The pipeline() is the easiest and fastest way to use a pretrained model for inference. You can use the pipeline() out-of-the-box for many tasks across different modalities, some of which are shown in the table below:
 

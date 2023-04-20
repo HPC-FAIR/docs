@@ -20,7 +20,6 @@ similarity_checker(code1, code2)
 
 ```{toctree}
 :maxdepth: 0
-:hidden:
 ../pipelines/similarity_checking.md
 ../pipelines/parallelism.md
 ```
