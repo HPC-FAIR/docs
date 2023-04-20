@@ -8,7 +8,7 @@
 import sphinx_rtd_theme
 
 project = 'HPCFAIR'
-copyright = '2023, Chunhua Leo Liao'
+copyright = '2023, Le Chen, Pei-Hung, Chunhua Leo Liao'
 author = 'Le Chen, Pei-Hung, Chunhua Leo Liao'
 
 # -- General configuration ---------------------------------------------------

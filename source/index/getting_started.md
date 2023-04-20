@@ -25,7 +25,6 @@ The pipeline() is the easiest and fastest way to use a pretrained model for infe
 | [parallelism detection](../pipelines/parallelism.md) | pipeline(task="loop-parallelism")        | Predict parallelism within a given loop                                     |
 | [similarity checking](../pipelines/similarity_checking.md)   | pipeline(task="code-similarity")         | Check if two codes have semantic similarity                                 |
 | text-to-code generation | pipeline(task="")                      | WIP                                                                         |
-               |
 
 
 

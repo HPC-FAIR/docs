@@ -16,4 +16,20 @@ similarity_checker = pipeline(task="code-similarity")
 similarity_checker(code1, code2)
 ```
 
+### HPCFAIR Pipelines
+
+```{toctree}
+:maxdepth: 0
+:hidden:
+../pipelines/similarity_checking.md
+../pipelines/parallelism.md
+```
+
+- code summarization 
+- code-to-code translation
+- defect detection
+- [parallelism detection](../pipelines/parallelism.md)
+- [similarity checking](../pipelines/similarity_checking.md)
+- text-to-code generation
+- OpenAI
 

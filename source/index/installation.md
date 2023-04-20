@@ -1,5 +1,5 @@
 # Installation
-## HPCFAIR Transformers editale installation
+## HPCFAIR Transformers editable installation
 ```bash
 git clone git@github.com:HPC-FAIR/transformers.git
 cd transformers
