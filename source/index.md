@@ -1,6 +1,8 @@
 # HPCFair Documentation
 
-Welcome to the HPC-Fair documentation! This documentation covers information on how to use and contribute to HPC-Fair. If you're new to HPC-Fair, start with the Getting Started section.
+Welcome to the HPC-Fair documentation! HPC-FAIR is a set of Python APIs to make machine learning models, datasets, and pipelines more accessible to HPC (High-Performance Computing) programmers who want to leverage the latest machine learning techniques to analyze, transformation or optimize their codes. 
+
+This documentation covers information on how to use and contribute to HPC-Fair. If you're new to HPC-Fair, start with the Getting Started section.
 
 ## Table of Contents
 
