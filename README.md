@@ -1,15 +1,18 @@
-# dependencies
+# Documentation for HPCFAIR
+
+This documentation is hosted at https://hpcfair.readthedocs.io/en/latest/
+### dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-# build
+### build
 ```bash
 cd docs
 make html
 ```
 
-# view
+### view
 ```bash
 cd docs/html
 ```
