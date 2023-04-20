@@ -8,10 +8,10 @@ Welcome to the HPC-Fair documentation! This documentation covers information on 
 :maxdepth: 1
 :caption: Contents
 
-./0_index/getting_started.md
-./0_index/installation.md
-./0_index/api_reference.md
-./0_index/hf_reference.md
+./index/getting_started.md
+./index/installation.md
+./index/api_reference.md
+./index/hf_reference.md
 ```
 
 
