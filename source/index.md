@@ -5,23 +5,22 @@ Welcome to the HPC-Fair documentation! This documentation covers information on 
 ## Table of Contents
 
 ```{toctree}
-:hidden:
-getting_started.md
-installation.md
-api_reference.md
+:maxdepth: 1
+:caption: Contents
 
-<!-- - [User Guide](user_guide.md)
-  - [Feature 1](user_guide/feature1.md)
-  - [Feature 2](user_guide/feature2.md) -->
-- [Getting Started](getting_started.md)
-- [Installation](installation.md)
-- [API Reference](api_reference.md)
-<!-- - [Contributing](contributing.md) -->
-<!-- - [FAQ](faq.md) -->
+./0_index/getting_started.md
+./0_index/installation.md
+./0_index/api_reference.md
+./0_index/hf_reference.md
+```
+
+
+
+
 
 ## Support
 
-If you need help or have any questions, you can [file an issue](https://github.com/HPC-FAIR/ML-Hackathon-2023/issues) on the GitHub repository or join our [community forum](https://example.com/forum).
+If you need help or have any questions, you can [file an issue](https://github.com/HPC-FAIR/docs/issues) on the GitHub repository or email us.
 
 ## License
 

@@ -5,23 +5,23 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Getting Started &mdash; HPCFAIR  documentation</title>
-      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
   <!--[if lt IE 9]>
-    <script src="_static/js/html5shiv.min.js"></script>
+    <script src="../_static/js/html5shiv.min.js"></script>
   <![endif]-->
   
-        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
-        <script src="_static/jquery.js"></script>
-        <script src="_static/underscore.js"></script>
-        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
-        <script src="_static/doctools.js"></script>
-        <script src="_static/sphinx_highlight.js"></script>
-    <script src="_static/js/theme.js"></script>
-    <link rel="index" title="Index" href="genindex.html" />
-    <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Pipeline: Code Similarity" href="pipelines/similarity_checking.html" />
-    <link rel="prev" title="HPCFair Documentation" href="index.html" /> 
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/sphinx_highlight.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Pipeline: Code Similarity" href="../1_pipelines/similarity_checking.html" />
+    <link rel="prev" title="HPCFair Documentation" href="../index.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -32,11 +32,11 @@
 
           
           
-          <a href="index.html" class="icon icon-home">
+          <a href="../index.html" class="icon icon-home">
             HPCFAIR
           </a>
 <div role="search">
-  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
     <input type="hidden" name="check_keywords" value="yes" />
     <input type="hidden" name="area" value="default" />
@@ -48,7 +48,7 @@
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Getting Started</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#installation">Installation</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#pipelines">Pipelines</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="pipelines/similarity_checking.html">Pipeline: Code Similarity</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../1_pipelines/similarity_checking.html">Pipeline: Code Similarity</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#tokenizer">Tokenizer</a></li>
@@ -56,6 +56,7 @@
 </li>
 <li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
 <li class="toctree-l1"><a class="reference internal" href="api_reference.html">API Reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hf_reference.html">Hugging Face Reference</a></li>
 </ul>
 
         </div>
@@ -64,17 +65,17 @@
 
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="index.html">HPCFAIR</a>
+          <a href="../index.html">HPCFAIR</a>
       </nav>
 
       <div class="wy-nav-content">
         <div class="rst-content">
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
-      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
       <li class="breadcrumb-item active">Getting Started</li>
       <li class="wy-breadcrumbs-aside">
-            <a href="_sources/getting_started.md.txt" rel="nofollow"> View page source</a>
+            <a href="../_sources/0_index/getting_started.md.txt" rel="nofollow"> View page source</a>
       </li>
   </ul>
   <hr/>
@@ -86,12 +87,7 @@
 <h1>Getting Started<a class="headerlink" href="#getting-started" title="Permalink to this heading"></a></h1>
 <section id="installation">
 <h2>Installation<a class="headerlink" href="#installation" title="Permalink to this heading"></a></h2>
-<p>Install the editable HPC-FAIR transformers:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>clone<span class="w"> </span>git@github.com:HPC-FAIR/transformers.git
-<span class="nb">cd</span><span class="w"> </span>transformers
-pip<span class="w"> </span>install<span class="w"> </span>-e<span class="w"> </span>.
-</pre></div>
-</div>
+<p>Please check the <a class="reference internal" href="installation.html"><span class="std std-doc">installation</span></a> section to install editable HPC-FAIR transformers</p>
 </section>
 <section id="pipelines">
 <h2>Pipelines<a class="headerlink" href="#pipelines" title="Permalink to this heading"></a></h2>
@@ -118,11 +114,11 @@ pip<span class="w"> </span>install<span class="w"> </span>-e<span class="w"> </s
 <td><p>pipeline(task=”defect-detection”)</p></td>
 <td><p>Identify whether a given code is an insecure code that may attack software systems</p></td>
 </tr>
-<tr class="row-odd"><td><p>parallelism detection</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="../1_pipelines/parallelism.html"><span class="std std-doc">parallelism detection</span></a></p></td>
 <td><p>pipeline(task=”loop-parallelism”)</p></td>
 <td><p>Predict parallelism within a given loop</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="pipelines/similarity_checking.html"><span class="std std-doc">similarity checking</span></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="../1_pipelines/similarity_checking.html"><span class="std std-doc">similarity checking</span></a></p></td>
 <td><p>pipeline(task=”code-similarity”)</p></td>
 <td><p>Check if two codes have semantic similarity</p></td>
 </tr>
@@ -167,8 +163,8 @@ pip<span class="w"> </span>install<span class="w"> </span>-e<span class="w"> </s
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="index.html" class="btn btn-neutral float-left" title="HPCFair Documentation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="pipelines/similarity_checking.html" class="btn btn-neutral float-right" title="Pipeline: Code Similarity" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="../index.html" class="btn btn-neutral float-left" title="HPCFair Documentation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../1_pipelines/similarity_checking.html" class="btn btn-neutral float-right" title="Pipeline: Code Similarity" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
