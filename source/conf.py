@@ -8,8 +8,8 @@
 import sphinx_rtd_theme
 
 project = 'HPCFAIR'
-copyright = '2023, Le Chen, Pei-Hung, Chunhua Leo Liao'
-author = 'Le Chen, Pei-Hung, Chunhua Leo Liao'
+copyright = '2023, Le Chen, Pei-Hung Lin, Chunhua Leo Liao'
+author = 'Le Chen, Pei-Hung Lin, Chunhua Leo Liao'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
