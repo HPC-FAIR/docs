@@ -1,5 +1,8 @@
 # Installation
 ## HPCFAIR Transformers editable installation
+
+An editable installation of a Python package is a way to install a package in such a way that it can be edited by the developer without having to reinstall it every time. 
+
 ```bash
 git clone git@github.com:HPC-FAIR/transformers.git
 cd transformers
