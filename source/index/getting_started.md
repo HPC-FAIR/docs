@@ -5,6 +5,8 @@ Please check the [installation](installation.md) section to install editable HPC
 
 ## Pipelines
 
+A pipeline in machine learning refers to a sequential process that combines multiple steps of data preprocessing, feature extraction, model training, and evaluation into a single, unified workflow. The primary goal of a pipeline is to streamline the entire machine learning process, making it more efficient, organized, and easier to reproduce.
+
 The pipeline() is the easiest and fastest way to use a pretrained model for inference. You can use the pipeline() out-of-the-box for many tasks across different modalities, some of which are shown in the table below:
 
 
