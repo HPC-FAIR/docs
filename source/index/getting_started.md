@@ -24,8 +24,13 @@ The pipeline() is the easiest and fastest way to use a pretrained model for infe
 
 
 ## Tokenizer
+
+In machine learning, particularly in the context of programming language processing (NLP), a tokenizer is a component responsible for breaking down input source code, natural language text, or graphs into smaller units called tokens. Tokenization is a crucial preprocessing step as it converts raw input data into a structured format that can be easily processed and analyzed by machine learning algorithms.
+
+Our API supports several types of tokenizers, depending on the different types of input data:
+
 | Tokenizer      | Description | Pipeline identifier|       
 | ----------- | ----------- | -----------               |
-| ast-token    | token-based ast tokenizer      | 	pipeline(tokenizer=“ast-token”) |
+| ast-token   | token-based ast tokenizer      | 	pipeline(tokenizer=“ast-token”) |
 | ast-graph   | graph-based ast tokenizer; works with GNNs only (WIP) |	pipeline(tokenizer=“ast-graph”) |
-| programl | comprehensive graph tokenizer (WIP)        |	pipeline(tokenizer=“programl”) |
+| programl    | comprehensive graph tokenizer (WIP)        |	pipeline(tokenizer=“programl”) |
